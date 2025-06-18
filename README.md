@@ -6,3 +6,6 @@
 
 ## Brain-even recording:
 [![asciicast](https://asciinema.org/a/723668.svg)](https://asciinema.org/a/723668)
+
+## Brain-calc recording:
+[![asciicast](https://asciinema.org/a/723673.svg)](https://asciinema.org/a/723673)
