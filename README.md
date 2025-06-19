@@ -9,3 +9,6 @@
 
 ## Brain-calc recording:
 [![asciicast](https://asciinema.org/a/723673.svg)](https://asciinema.org/a/723673)
+
+## Brain-gcd recording: 
+[![asciicast](https://asciinema.org/a/XFUKzSSwRRmB5aQaL8Ntvjt9P.svg)](https://asciinema.org/a/XFUKzSSwRRmB5aQaL8Ntvjt9P)
