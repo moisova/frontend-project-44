@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import { getName, greeting } from './cli.js'
+import { getName, greeting } from '../src/cli.js'
 
 const userName = getName()
 export const greetUser = (rules) => {

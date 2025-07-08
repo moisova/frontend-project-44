@@ -1,5 +1,5 @@
 import { randomNumber } from '../src/cli.js'
-import { greetUser, game } from '../src/common.js'
+import { greetUser, game } from '../bin/index.js'
 
 const rules = 'Find the greatest common divisor of given numbers.'
 greetUser(rules)

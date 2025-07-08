@@ -1,4 +1,4 @@
-import { greetUser, game } from '../src/common.js'
+import { greetUser, game } from '../bin/index.js'
 import { randomNumber, calculate } from '../src/cli.js'
 
 const rules = 'What is the result of the expression?'

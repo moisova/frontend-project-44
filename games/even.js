@@ -1,5 +1,5 @@
 import { randomNumber } from '../src/cli.js'
-import { game, greetUser } from '../src/common.js'
+import { greetUser, game } from '../bin/index.js'
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 greetUser(rules)

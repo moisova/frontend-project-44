@@ -12,3 +12,6 @@
 
 ## Brain-gcd recording: 
 [![asciicast](https://asciinema.org/a/XFUKzSSwRRmB5aQaL8Ntvjt9P.svg)](https://asciinema.org/a/XFUKzSSwRRmB5aQaL8Ntvjt9P)
+
+## Brain-progression recording:
+[![asciicast](https://asciinema.org/a/doUiaX3krfiEjtvwOBnnZ94Ou.svg)](https://asciinema.org/a/doUiaX3krfiEjtvwOBnnZ94Ou)
