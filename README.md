@@ -15,3 +15,6 @@
 
 ## Brain-progression recording:
 [![asciicast](https://asciinema.org/a/doUiaX3krfiEjtvwOBnnZ94Ou.svg)](https://asciinema.org/a/doUiaX3krfiEjtvwOBnnZ94Ou)
+
+## Brain-prime recording: 
+[![asciicast](https://asciinema.org/a/knAVJH3eP7qvWWBor2ydlkY0Q.svg)](https://asciinema.org/a/knAVJH3eP7qvWWBor2ydlkY0Q)

@@ -45,3 +45,12 @@ export const hiddenSequence = () => {
     answer: String(answer),
   }
 }
+
+export const isPrime = (num) => {
+  if (num <= 1) return false
+  if (num === 2) return true
+  for (let i = 2, max = Math.sqrt(num); i <= max; i += 1) {
+    if (num % i === 0) return false
+  }
+  return true
+}
