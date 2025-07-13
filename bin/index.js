@@ -3,7 +3,7 @@ import { getName, greeting } from '../src/cli.js'
 
 const userName = getName()
 export const greetUser = (rules) => {
-  console.log('Welcome to the Brain-Games!')
+  console.log('Welcome to the Brain Games!')
   console.log(greeting(userName))
   console.log(`${rules}`)
 }
