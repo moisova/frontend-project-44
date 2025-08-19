@@ -1,8 +1,17 @@
 import { greetUser, game } from '../bin/index.js'
-import { isPrime, randomNumber } from '../src/cli.js'
+import { randomNumber } from '../src/cli.js'
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 greetUser(rules)
+
+const isPrime = (num) => {
+  if (num <= 1) return false
+  if (num === 2) return true
+  for (let i = 2, max = Math.sqrt(num); i <= max; i += 1) {
+    if (num % i === 0) return false
+  }
+  return true
+}
 
 export const prime = () => {
   const getQuestionAndAnswer = () => {
