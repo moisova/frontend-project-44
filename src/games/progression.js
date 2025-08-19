@@ -1,4 +1,4 @@
-import { greetUser, game } from '../../bin/index.js'
+import { greetUser, game } from '../index.js'
 import { randomNumber } from '../cli.js'
 
 const rules = 'What number is missing in the progression?'

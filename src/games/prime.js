@@ -1,5 +1,5 @@
-import { greetUser, game } from '../bin/index.js'
-import { randomNumber } from '../src/cli.js'
+import { greetUser, game } from '../index.js'
+import { randomNumber } from '../cli.js'
 
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 greetUser(rules)
