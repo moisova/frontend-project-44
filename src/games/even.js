@@ -1,4 +1,4 @@
-import { randomNumber } from '../cli.js'
+import { randomNumber } from '../randomNumber.js'
 import { greetUser, game } from '../index.js'
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".'

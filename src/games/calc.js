@@ -1,5 +1,5 @@
 import { greetUser, game } from '../index.js'
-import { randomNumber } from '../cli.js'
+import { randomNumber } from '../randomNumber.js'
 
 const rules = 'What is the result of the expression?'
 greetUser(rules)
