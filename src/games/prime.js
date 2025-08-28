@@ -1,9 +1,6 @@
 import { greetUser, game } from '../index.js'
 import { randomNumber } from '../randomNumber.js'
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-greetUser(rules)
-
 const isPrime = (num) => {
   if (num <= 1) return false
   if (num === 2) return true
@@ -14,10 +11,12 @@ const isPrime = (num) => {
 }
 
 export const prime = () => {
+  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+  const userName = greetUser(rules)
   const getQuestionAndAnswer = () => {
     const question = randomNumber (1, 100)
     const correctAnswer = isPrime(question) ? 'yes' : 'no'
     return { question, correctAnswer }
   }
-  game(getQuestionAndAnswer)
+  game(getQuestionAndAnswer, userName)
 }

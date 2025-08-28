@@ -1,9 +1,6 @@
 import { randomNumber } from '../randomNumber.js'
 import { greetUser, game } from '../index.js'
 
-const rules = 'Find the greatest common divisor of given numbers.'
-greetUser(rules)
-
 const getGcd = (a, b) => {
   let num1 = a
   let num2 = b
@@ -16,6 +13,8 @@ const getGcd = (a, b) => {
 }
 
 export const gcd = () => {
+  const rules = 'Find the greatest common divisor of given numbers.'
+  const userName = greetUser(rules)
   const getQuestionAndAnswer = () => {
     const a = randomNumber(1, 10)
     const b = randomNumber(1, 10)
@@ -23,5 +22,5 @@ export const gcd = () => {
     const correctAnswer = String(getGcd(a, b))
     return { question, correctAnswer }
   }
-  game(getQuestionAndAnswer)
+  game(getQuestionAndAnswer, userName)
 }

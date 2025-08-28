@@ -1,11 +1,7 @@
 import { greetUser, game } from '../index.js'
 import { randomNumber } from '../randomNumber.js'
 
-const rules = 'What is the result of the expression?'
-greetUser(rules)
-
 const operators = ['+', '-', '*']
-
 const calculate = (a, b, operator) => {
   switch (operator) {
     case '+': return a + b
@@ -15,6 +11,8 @@ const calculate = (a, b, operator) => {
 }
 
 export const calc = () => {
+  const rules = 'What is the result of the expression?'
+  const userName = greetUser(rules)
   const getQuestionAndAnswer = () => {
     const a = randomNumber(1, 10)
     const b = randomNumber(1, 10)
@@ -23,5 +21,5 @@ export const calc = () => {
     const correctAnswer = String(calculate(a, b, operator))
     return { question, correctAnswer }
   }
-  game(getQuestionAndAnswer)
+  game(getQuestionAndAnswer, userName)
 }

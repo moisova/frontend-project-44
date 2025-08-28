@@ -1,9 +1,6 @@
 import { greetUser, game } from '../index.js'
 import { randomNumber } from '../randomNumber.js'
 
-const rules = 'What number is missing in the progression?'
-greetUser(rules)
-
 const makeSequence = () => {
   const start = randomNumber(1, 15)
   const step = randomNumber(1, 7)
@@ -32,6 +29,8 @@ const hiddenSequence = () => {
 }
 
 export const progression = () => {
+  const rules = 'What number is missing in the progression?'
+  const userName = greetUser(rules)
   const getQuestionAndAnswer = () => {
     const { question, answer } = hiddenSequence()
     return {
@@ -39,5 +38,5 @@ export const progression = () => {
       correctAnswer: answer,
     }
   }
-  game(getQuestionAndAnswer)
+  game(getQuestionAndAnswer, userName)
 }
